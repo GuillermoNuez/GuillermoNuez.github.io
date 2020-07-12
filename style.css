@@ -288,6 +288,10 @@ body {
   background-color: #2969b1;
 }
 
+.experience_link {
+  text-decoration: none;
+  color: white;
+}
 /* @keyframes pacman {
   0%   {right: 400px}
   50% {right: -300px; top: 50px;}
