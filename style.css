@@ -6,6 +6,13 @@
   --black: #1a1a1a;
 }
 
+.main {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
+  height: 100%;
+}
+
 body {
   margin: 0;
   background-color: var(--black);
@@ -289,6 +296,12 @@ body {
   text-decoration: none;
   color: white;
 }
+
+.skills_box {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
 /* @keyframes pacman {
   0%   {right: 400px}
   50% {right: -300px; top: 50px;}
@@ -571,13 +584,27 @@ body {
     height: 20px;
     top: 28px;
   }
-  .pacman_food{
+  .pacman_food {
     right: 168px;
   }
-  .pacman_food_2{
+  .pacman_food_2 {
     right: 118px;
   }
-  .pacman_food_3{
+  .pacman_food_3 {
     right: 58px;
+  }
+}
+@media screen and (max-width: 1021px) {
+  .skills_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills_box {
+    justify-content: space-around;
+    width: 100%;
+    font-size: 1.2em;
+  }
+  .skills {
+    width: 100%;
   }
 }
