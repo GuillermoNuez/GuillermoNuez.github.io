@@ -143,7 +143,6 @@ body {
   top: -200px;
 }
 
-
 .ring--down_left {
   border-style: dot-dash;
   left: -100px;
@@ -506,7 +505,6 @@ body {
     top: -76px;
   }
 
-
   .headtitles {
     margin-top: 100px;
   }
@@ -559,6 +557,30 @@ body {
   }
   .pacman_food_3 {
     right: 58px;
+  }
+  .twitter {
+    color: white;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #55acee;
+    font-size: 0.5em;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  .mb-25 {
+    margin-bottom: 15px;
+  }
+  .ScaledStone_Image {
+    margin-top: 30px;
+  }
+
+  .footer {
+    margin-top: 75px;
   }
 }
 @media screen and (max-width: 1021px) {
