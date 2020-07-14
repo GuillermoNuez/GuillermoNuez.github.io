@@ -212,7 +212,9 @@ body {
   width: 95%;
   justify-content: space-between;
 }
-
+.MERN-project {
+  margin-top: 100px;
+}
 .ScaledStone_Image {
   border: 6px solid white;
   width: 400px;
@@ -581,6 +583,9 @@ body {
 
   .footer {
     margin-top: 75px;
+  }
+  .MERN-project {
+    margin-top: 50px;
   }
 }
 @media screen and (max-width: 1021px) {
