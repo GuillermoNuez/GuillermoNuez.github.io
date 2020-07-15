@@ -260,7 +260,7 @@ body {
   flex-direction: column;
 }
 .contact_me {
-  width: 195px;
+  width: 269px;
   margin-top: 25px;
   background-color: #54ba4e;
   padding: 10px;
@@ -328,7 +328,7 @@ body {
 @media screen and (max-width: 1590px) {
   .main_title {
     font-size: 5em;
-    margin-top: 200px;
+    margin-top: 275px;
   }
 
   .main_title_2 {
@@ -381,7 +381,7 @@ body {
 
   .main_title {
     font-size: 4em;
-    margin-top: 200px;
+    margin-top: 250px;
   }
 
   .main_title_2 {
@@ -391,6 +391,27 @@ body {
   .profilepic {
     width: 350px;
     height: 350px;
+  }
+}
+
+@media screen and (max-width: 1021px) {
+  .skills_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills_box {
+    justify-content: space-around;
+    width: 100%;
+    font-size: 1.2em;
+  }
+  .skills {
+    width: 100%;
+  }
+  .footer_box_contact {
+    font-size: 1em;
+  }
+  .contact_me {
+    width: 224px;
   }
 }
 
@@ -518,7 +539,7 @@ body {
 
   .main_title {
     font-size: 1.8em;
-    margin-top: 125px;
+    margin-top: 140px;
   }
 
   .main_title_2 {
@@ -587,18 +608,12 @@ body {
   .MERN-project {
     margin-top: 50px;
   }
-}
-@media screen and (max-width: 1021px) {
-  .skills_container {
-    flex-direction: column;
-    align-items: center;
+
+  .footer_box_contact {
+    font-size: 1em;
   }
-  .skills_box {
-    justify-content: space-around;
-    width: 100%;
-    font-size: 1.2em;
-  }
-  .skills {
-    width: 100%;
+  .contact_me {
+    width: 224px;
   }
 }
+
